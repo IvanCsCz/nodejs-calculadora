@@ -23,6 +23,12 @@
 		"prettier": "2.8.8"
 	},
 	"imports": {
-		"#Lib/*": "./src/lib/*"
+		"#Lib/*": "./src/lib/*",
+		"#Constants/*": [
+			"./src/constants/*.js"
+		],
+		"#Errors/*": [
+			"./src/errors/*.js"
+		]
 	}
 }

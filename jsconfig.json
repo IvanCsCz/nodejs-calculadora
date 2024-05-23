@@ -4,7 +4,9 @@
         "module": "Node16",
         "baseUrl": "./",
         "paths": {
-            "#Lib/*": ["./src/lib/*"]
+            "#Lib/*": ["./src/lib/*"],
+            "#Constants/*": ["./src/constants/*"],
+            "#Errors/*": ["./src/errors/*"]
         }
     }
 }
