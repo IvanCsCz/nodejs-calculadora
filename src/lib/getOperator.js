@@ -1,10 +1,10 @@
-import { OPERATORS } from '#Constants/operators';
+import { ALL_OPERATORS } from '#Constants/operators';
 import { InvalidInputError } from '#Errors/invalidInputError';
 
 export const getOperator = standardizedInput => {
 	let operator;
 
-	for (const allowedOperator of OPERATORS) {
+	for (const allowedOperator of ALL_OPERATORS) {
 		if (standardizedInput.includes(allowedOperator)) {
 			if (
 				operator ||
